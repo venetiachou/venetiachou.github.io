@@ -6,6 +6,10 @@
   background-color: #ffffff;
 }
 
+body{
+  background-color: #ffffff;
+}
+
 a{
   text-decoration: none;
   color: #999999;
@@ -14,7 +18,8 @@ a{
 }
 
 a:hover{
-  color: #712AC6
+  color: #712AC6;
+  text-decoration: none;
 }
 
 nav{
@@ -22,13 +27,13 @@ nav{
   height: 96px;
   position: fixed;
   background-color: rgba(255,255,255,0.95);
-  z-index: 1000;
+  z-index: 3;
   transition: all 0.4s ease;
   text-align: right;
   padding: 38px 30px;
 }
 
-.nav{
+.navi{
   padding: 38px 16px;
   text-align: right;
 }
@@ -44,6 +49,10 @@ h1{
 }
 
 
+.title{
+  margin: 0;
+}
+
 .description{
   padding-left: 16px;
   margin: 0px;
@@ -57,6 +66,7 @@ h1{
 
 .contact{
   padding: 0 16px; 
+  margin: 0;
 }
 
 .social-icon{
@@ -65,8 +75,30 @@ h1{
   padding-bottom: 24px;
 }
 
+
+.navbar{
+  width: 100%;
+}
+
+.bmd-layout-drawer>.list-group .list-group-item
+{
+  margin: 0;
+}
+
 @media only screen and (max-width: 482px){
   nav{
+    display: none;
+  }
+  h1{
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (min-width: 483px){
+  .bmd-layout-header{
+    display: none;
+  }
+  .bmd-layout-drawer{
     display: none;
   }
 }
