@@ -6,6 +6,11 @@
   background-color: #ffffff;
 }
 
+::selection{
+  background-color: #712AC6;
+  color: #ffffff;
+}
+
 body{
   background-color: #ffffff;
 }
