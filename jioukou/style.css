@@ -1,0 +1,25 @@
+body{
+  font-family: "PingFang TC", -apple-system, "Helvetica Neue", Helvetica;
+  background-color: #ffffff;
+}
+
+
+.main{
+  padding-left: 10rem; 
+}
+
+.icon{
+  padding-top: 10rem;
+}
+
+.icon img{
+  max-height: 32px;
+}
+
+h1{
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
