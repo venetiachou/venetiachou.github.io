@@ -37,3 +37,11 @@ h1{
 .bg-image img {
   height: 100%;
 }
+
+button.btn.btn-raised.btn-primary{
+  background-color: rgb(0, 181, 173);
+  width: 120px;
+  height: 48px;
+  font-size: 1rem;
+}
+
