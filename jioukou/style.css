@@ -45,3 +45,25 @@ button.btn.btn-raised.btn-primary{
   font-size: 1rem;
 }
 
+@media screen and (max-width: 540px) {
+  .main {
+    padding-left: 0px;
+    margin: 16 px; 
+  }
+  
+  .icon{
+    padding: 16px;
+  }
+
+  h1 {
+    padding: 16px;
+  }
+
+  .content{
+    padding: 16px;
+  }
+  .main-btn{
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+}
