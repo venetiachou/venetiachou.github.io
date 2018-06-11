@@ -99,6 +99,10 @@ h1{
   h1{
     padding-top: 120px;
   }
+
+  .description{
+    padding-right: 16px;
+  }
 }
 
 @media only screen and (min-width: 483px){
