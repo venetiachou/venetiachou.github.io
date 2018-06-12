@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.1 (55044) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_payment_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Customer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-457.000000, -443.000000)">
+            <g id="Group-2" transform="translate(166.000000, 166.000000)">
+                <g id="ic_payment_24px" transform="translate(290.000000, 274.000000)">
+                    <g id="Group">
+                        <polygon id="Shape" points="0 0 23 0 23 23 0 23"></polygon>
+                        <path d="M19.1666667,3.83333333 L3.83333333,3.83333333 C2.76958333,3.83333333 1.92625,4.68625 1.92625,5.75 L1.91666667,17.25 C1.91666667,18.31375 2.76958333,19.1666667 3.83333333,19.1666667 L19.1666667,19.1666667 C20.2304167,19.1666667 21.0833333,18.31375 21.0833333,17.25 L21.0833333,5.75 C21.0833333,4.68625 20.2304167,3.83333333 19.1666667,3.83333333 L19.1666667,3.83333333 Z M19.1666667,17.25 L3.83333333,17.25 L3.83333333,11.5 L19.1666667,11.5 L19.1666667,17.25 L19.1666667,17.25 Z M19.1666667,7.66666667 L3.83333333,7.66666667 L3.83333333,5.75 L19.1666667,5.75 L19.1666667,7.66666667 L19.1666667,7.66666667 Z" id="Shape" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

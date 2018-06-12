@@ -38,6 +38,20 @@ h1{
   height: 100%;
 }
 
+.in-block {
+  display: inline-block;
+}
+
+.step-group {
+  text-align: center;
+}
+
+.step img {
+  padding-bottom: 8px;
+}
+
+
+
 button.btn.btn-raised.btn-primary{
   background-color: rgb(0, 181, 173);
   width: 120px;
@@ -56,6 +70,10 @@ button.btn.btn-raised.btn-primary{
   }
 
   h1 {
+    padding: 16px;
+  }
+
+  .step{
     padding: 16px;
   }
 
