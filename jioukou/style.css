@@ -67,23 +67,6 @@ h1{
   font-size: 1rem;
 }
 
-.container-fluid{
-  height: 56px;
-  padding: 0;
-  border: 1px solid rgba(0,0,0,.0975)
-}
-
-.navi-object {
-  max-width: 1140px;
-  display: flex;
-  margin: auto;
-}
-
-nav .icon{
-  max-height: 40px;
-  padding-top:11px;
-  padding-left: 16px;
-}
 
 @media screen and (max-width: 540px) {
   .main {

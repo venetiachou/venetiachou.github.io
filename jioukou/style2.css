@@ -1,0 +1,25 @@
+body{
+  background: #fafafa;
+}
+
+nav{
+  background: #ffffff;
+}
+
+.container-fluid{
+  height: 56px;
+  padding: 0;
+  border: 0.5px solid #f4f4f4;
+}
+
+.navi-object {
+  max-width: 1140px;
+  display: flex;
+  margin: auto;
+}
+
+nav .icon{
+  max-height: 40px;
+  padding-top:11px;
+  padding-left: 16px;
+}
