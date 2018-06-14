@@ -23,3 +23,27 @@ nav .icon{
   padding-top:11px;
   padding-left: 16px;
 }
+
+
+
+.process{
+  height: 48px;
+  background: #ffffff;
+}
+
+.process-object{
+  line-height: 48px;
+}
+
+.small-font{
+  font-size: 12px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.inactive {
+  color: #999999;
+}
