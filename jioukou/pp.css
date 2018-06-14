@@ -9,6 +9,11 @@ body {
 nav {
   display: block;
   padding: 8px;
+  padding-right: 0;
+}
+
+.nav-link {
+  padding: .5rem 0rem;
 }
 
 body {
