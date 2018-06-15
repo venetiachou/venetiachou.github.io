@@ -46,4 +46,22 @@ nav .icon{
 
 .inactive {
   color: #999999;
+  font-weight: 300;
+}
+
+h1{
+  padding-top: 0px;
+}
+
+.card{
+  max-width: 450px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.card-title{
+  text-align: center;
+  border-bottom: 0.5px solid #f4f4f4;
+  color: #767676;
+  letter-spacing: 0.5px;
 }
