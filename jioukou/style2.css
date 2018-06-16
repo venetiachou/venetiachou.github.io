@@ -85,9 +85,18 @@ h1{
 
 @media screen and (max-width: 450px){
   h1{
-    max-height: 32px;
+    height: 8px;
   }
   .card{
     width: calc(100% - 24px)
+  }
+
+  .process{
+    height: 24px;
+    background: transparent;
+  }
+
+  .object-inactive {
+    display: none;
   }
 }
