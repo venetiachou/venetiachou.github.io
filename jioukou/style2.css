@@ -82,3 +82,12 @@ h1{
 .card-description P{
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 450px){
+  h1{
+    max-height: 32px;
+  }
+  .card{
+    width: calc(100% - 24px)
+  }
+}
