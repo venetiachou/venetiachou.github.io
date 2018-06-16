@@ -24,8 +24,6 @@ nav .icon{
   padding-left: 16px;
 }
 
-
-
 .process{
   height: 48px;
   background: #ffffff;
@@ -73,4 +71,14 @@ h1{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.card-name {
+  color: #999999;
+  font-weight: 300;
+  font-size: 0.75rem; 
+}
+
+.card-description P{
+  margin-bottom: 0;
 }
