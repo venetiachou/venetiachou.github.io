@@ -65,3 +65,12 @@ h1{
   color: #767676;
   letter-spacing: 0.5px;
 }
+
+.card-img{
+  background-image: url(/images/cover-1.jpg);
+  height: 200px;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
