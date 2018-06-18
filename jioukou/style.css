@@ -67,6 +67,12 @@ h1{
   font-size: 1rem;
 }
 
+.bmd-btn-fab.btn-primary.active.custom-file-control:before, .bmd-btn-fab.btn-primary.custom-file-control:active:before, .bmd-btn-fab.btn-primary.custom-file-control:focus:before, .bmd-btn-fab.btn-primary.custom-file-control:hover:before, .bmd-btn-fab.btn-primary.focus.custom-file-control:before, .btn-group-raised .btn-primary.active.custom-file-control:before, .btn-group-raised .btn-primary.custom-file-control:active:before, .btn-group-raised .btn-primary.custom-file-control:focus:before, .btn-group-raised .btn-primary.custom-file-control:hover:before, .btn-group-raised .btn-primary.focus.custom-file-control:before, .btn-group-raised .btn.btn-primary.active, .btn-group-raised .btn.btn-primary.focus, .btn-group-raised .btn.btn-primary:active, .btn-group-raised .btn.btn-primary:focus, .btn-group-raised .btn.btn-primary:hover, .btn-raised.btn-primary.active.custom-file-control:before, .btn-raised.btn-primary.custom-file-control:active:before, .btn-raised.btn-primary.custom-file-control:focus:before, .btn-raised.btn-primary.custom-file-control:hover:before, .btn-raised.btn-primary.focus.custom-file-control:before, .btn.bmd-btn-fab.btn-primary.active, .btn.bmd-btn-fab.btn-primary.focus, .btn.bmd-btn-fab.btn-primary:active, .btn.bmd-btn-fab.btn-primary:focus, .btn.bmd-btn-fab.btn-primary:hover, .btn.btn-raised.btn-primary.active, .btn.btn-raised.btn-primary.focus, .btn.btn-raised.btn-primary:active, .btn.btn-raised.btn-primary:focus, .btn.btn-raised.btn-primary:hover, .open>.bmd-btn-fab.btn-primary.dropdown-toggle.custom-file-control:before, .open>.btn-group-raised .btn-primary.dropdown-toggle.custom-file-control:before, .open>.btn-group-raised .btn.btn-primary.dropdown-toggle, .open>.btn-raised.btn-primary.dropdown-toggle.custom-file-control:before, .open>.btn.bmd-btn-fab.btn-primary.dropdown-toggle, .open>.btn.btn-raised.btn-primary.dropdown-toggle{
+  background-color: rgb(0, 181, 173);
+  opacity: 0.8;
+  border-color: transparent; 
+}
+
 
 @media screen and (max-width: 540px) {
   .main {

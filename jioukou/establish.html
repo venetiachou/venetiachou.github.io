@@ -76,10 +76,45 @@
           揪團說明
         </div>
         <div class="card-description">
-          一組有三罐自治果醬，口味可任選，在訂單備註即可。原價為 1150 元/組，現在一組只要 900 元且免運!
+          一組有三罐自治果醬，口味可任選，在訂單備註即可。原價為 1150 元/組，現在一組只要 900 元且免運！
         </div>
       </div>
     </div>
+  </div>
+  <div class="card mb-4 box-shadow">
+    <div class="card-title pt-3 pb-3 mr-3 ml-3">
+      填寫開團資料
+    </div>
+    <form>
+      <div class="form-group mr-3 ml-3">
+        <label for="InitiatorName">姓名</label>
+        <input type="text" class="form-control" id="InitiatorName">
+      </div>
+      <div class="form-group mr-3 ml-3">
+        <label for="InitiatorEmail1">Email</label>
+        <input type="text" class="form-control" id="InitiatorEmail1">
+        <span class="bmd-help">用於寄送團員名單連結，請認真填寫並核對</span>
+      </div>
+      <div class="form-row">
+        <div class="form-group mr-3 ml-3 col-md-5">
+          <label for="InitiatorCity">縣市</label>
+          <input type="text" class="form-control" id="InitiatorCity" autocomplete="on">
+        </div>
+        <div class="form-group mr-3 ml-3 col-md-5">
+          <label for="InitiatorTownship">區域</label>
+          <input type="text" class="form-control" id="InitiatorTownship" autocomplete="address-level1">
+        </div>
+      </div>
+      <div class="form-group mr-3 ml-3">
+        <label for="InitiatorAddress">地址</label>
+        <input type="text" class="form-control" id="InitiatorAddress" autocomplete="address-line1">
+      </div>
+      <div class="form-group mr-3 ml-3">
+        <label for="InitiatorTextarea">備註</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-raised btn-primary mt-3 mr-3 ml-3">建立揪團</button>
+    </form>
   </div>
 </body>
 </html>
