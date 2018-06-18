@@ -43,6 +43,6 @@ a{
 
 @media screen and (max-width: 576px){
   .nav-link{
-    padding: .5rem;
+    padding: .5rem 1rem;
   }
 }
