@@ -73,6 +73,15 @@ h1{
   border-color: transparent; 
 }
 
+a{
+  color: rgb(0, 181, 173);
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(0, 181, 173);
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 540px) {
   .main {

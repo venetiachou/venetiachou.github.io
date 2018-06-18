@@ -83,6 +83,10 @@ h1{
   margin-bottom: 0;
 }
 
+form{
+  margin-bottom: 8px;
+}
+
 .is-focused [class^=bmd-label] {
   color: rgb(0, 181, 173);
 }
@@ -94,6 +98,10 @@ h1{
 .btn.btn-raised.btn-primary{
   display: inline-block;
   width: calc(100% - 32px)
+}
+
+.privacy-policy{
+  text-align: center
 }
 
 @media screen and (max-width: 450px){
