@@ -94,6 +94,7 @@ form{
 
 .form-row>.col, .form-row>[class*=col-]{
   padding-left: 0px;
+  padding-right: 0px;
 }
 
 .is-focused [class^=bmd-label] {
