@@ -87,6 +87,15 @@ form{
   margin-bottom: 8px;
 }
 
+.form-row{
+  margin-right: 0px;
+  margin-left: 0px; 
+}
+
+.form-row>.col, .form-row>[class*=col-]{
+  padding-left: 0px;
+}
+
 .is-focused [class^=bmd-label] {
   color: rgb(0, 181, 173);
 }
