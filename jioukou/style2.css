@@ -6,6 +6,10 @@ nav{
   background: #ffffff;
 }
 
+.invisible{
+  height: 24px;
+}
+
 .container-fluid{
   height: 56px;
   padding: 0;
@@ -66,7 +70,7 @@ h1{
 
 .card-img{
   background-image: url(/images/cover-1.jpg);
-  height: 200px;
+  height: 150px;
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;

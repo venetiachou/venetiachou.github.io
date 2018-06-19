@@ -13,7 +13,7 @@ body{
 }
 
 .icon{
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .icon img{
@@ -35,6 +35,7 @@ h1{
 }
 
 .description {
+  display: inline-flex;
   font-weight: 300;
 }
 
@@ -52,12 +53,9 @@ h1{
   display: inline-block;
 }
 
-.step-group {
-  text-align: center;
-}
-
 .step img {
   padding-bottom: 8px;
+  padding-right: 8px;
 }
 
 .btn.btn-raised.btn-primary{
