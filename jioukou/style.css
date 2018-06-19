@@ -8,8 +8,13 @@ body{
   color: #ffffff;
 }
 
-.main{
-  padding-left: 10rem; 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.main-sec{
+  padding-left: 8rem;
 }
 
 .icon{
@@ -17,7 +22,8 @@ body{
 }
 
 .icon img{
-  max-height: 32px;
+  height: 32px;
+  display: inline-block;
 }
 
 h1{
@@ -40,9 +46,10 @@ h1{
 }
 
 .bg-image{
+  padding: 0;
   overflow: hidden;
-  width: 100%;
-  height: 824px;
+  width: auto;
+  height: 100vh;
 }
 
 .bg-image img {
@@ -82,17 +89,23 @@ a:hover{
 }
 
 @media screen and (max-width: 540px) {
-  .main {
+  .main-sec {
     padding-left: 0px;
     margin: 16 px; 
   }
   
+  .description{
+    display: block;
+    font-size: 14px;
+  }
+
   .icon{
     padding: 16px;
   }
 
   h1 {
     padding: 16px;
+    font-size: 2rem;
   }
 
   .step{
@@ -102,6 +115,7 @@ a:hover{
   .content{
     padding: 16px;
   }
+
   .main-btn{
     padding: 16px;
     margin-bottom: 16px;
