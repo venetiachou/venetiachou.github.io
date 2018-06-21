@@ -181,4 +181,8 @@ form{
     display: none;
   }
   
+  .clipboard{
+    left: 7%;
+  }
+
 }
