@@ -118,6 +118,52 @@ form{
   text-align: center
 }
 
+.main-icon{
+  margin: auto;
+}
+
+.special-description{
+  max-width: 300px;
+  margin: auto;
+}
+
+.clipboard {
+  position: relative;
+  top: 50%;
+  left: 10%;
+  max-width: 418px;
+}
+
+.clipboard input{
+  min-height: 40px;
+  border: 1px solid #eee;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 8px;
+  width: 60%;
+}
+
+.clipboard :focus{
+  border-color: #00b5ad;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.btn-outline-primary {
+  border-color: currentColor;
+  color: #00b5ad;
+  background-color: transparent;
+  border: 1px solid #00b5ad;
+  font-weight: 300;
+  min-height: 40px;
+  width: 25%;
+}
+
+.btn-outline-primary.active.custom-file-control:before, .btn-outline-primary.custom-file-control:active:before, .btn-outline-primary.custom-file-control:focus:before, .btn-outline-primary.custom-file-control:hover:before, .btn-outline-primary.focus.custom-file-control:before, .btn.btn-outline-primary.active, .btn.btn-outline-primary.focus, .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:hover, .open>.btn-outline-primary.dropdown-toggle.custom-file-control:before, .open>.btn.btn-outline-primary.dropdown-toggle{
+  background-color: #00b5ad;
+  color: #ffffff;
+  border: none;
+}
+
 @media screen and (max-width: 450px){
   h1{
     height: 8px;
