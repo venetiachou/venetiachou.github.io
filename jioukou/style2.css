@@ -164,12 +164,31 @@ form{
   border: none;
 }
 
+.main-btn{
+  display: inline-block;
+  margin: auto;
+}
+
+.btn.btn-raised.btn-primary.btn-center {
+  width: 418px;
+}
+
 @media screen and (max-width: 450px){
   h1{
     height: 8px;
   }
+  
   .card{
     width: calc(100% - 24px)
+  }
+
+  .btn.btn-raised.btn-primary.btn-center {
+    width: calc(100% - 32px);
+  }
+  
+  .main-btn{
+    padding: 0;
+    width: calc(100%);
   }
 
   .process{
