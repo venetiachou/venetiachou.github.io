@@ -173,6 +173,21 @@ form{
   width: 418px;
 }
 
+.intro{
+  background-color: #ffffff;
+}
+
+.intro .description{
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  font-size: 14px;
+}
+
+.intro a{
+  font-weight: 300;
+}
+
 @media screen and (max-width: 450px){
   h1{
     height: 8px;
