@@ -75,7 +75,7 @@ h1{
 
 .card-img{
   background-image: url(/images/cover-1.jpg);
-  height: 150px;
+  height: 100px;
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,6 +90,10 @@ h1{
 
 .card-description P{
   margin-bottom: 0;
+}
+
+.card-description{
+  font-size: 0.875rem;
 }
 
 form{
@@ -224,6 +228,7 @@ p.unit-col {
 
 .des{
   display: inline-flex;
+  color: #999999;
 }
 
 @media screen and (max-width: 450px){
