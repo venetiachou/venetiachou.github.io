@@ -267,4 +267,22 @@ p.unit-col {
     left: 7%;
   }
 
+  .order-sm-1{
+    order: 1;
+  }
+
+  .order-sm-2{
+    order: 2;
+  }
+
+}
+
+@media (min-width: 576px){
+  .order-sm-1{
+    order: 2;
+  }
+
+  .order-sm-2{
+    order: 1;
+  }
 }
