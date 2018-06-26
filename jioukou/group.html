@@ -35,9 +35,30 @@
         Chialin Chou 邀請你加入揪團，一起享團購優惠！
       </p>
       <p class="description">
-        加入 Chialin Chou 的揪團！最高湊滿 20 組，每組優惠價為 $800 元，相當於每組優惠 $200 元！<a href="http://">了解團購優惠</a> 
+        加入 Chialin Chou 的揪團！最高湊滿 20 組，每組優惠價為 $800 元，相當於每組優惠 $200 元！<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">了解團購優惠</button>
       </p>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">團購優惠</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>湊滿 5 組，平均 1 組 900 元</p>
+            <p>湊滿 10 組，平均 1 組 850 元</p>
+            <p>湊滿 15 組，平均 1 組 830 元</p>
+            <p>湊滿 20 組，平均 1 組 800 元</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="row mt-3">
       <div class="col-md-8 col-sm-12 mt-3 pb-3 order-sm-2">
         <div class="purchase-unit white-bg pt-4 pl-4 pb-4 box-shadow">
@@ -47,7 +68,35 @@
             <p class="unit-number">1</p>
             <p class="unit-col"><img src="/images/plus.svg" alt="plus"></p>
           </div>
-        <div class="des small-font pl-1">目前已湊滿 0 組，趕緊湊到 5 組讓揪團成團吧！</div>
+          <div class="des small-font pl-1">目前已湊滿 0 組，趕緊湊到 5 組讓揪團成團吧！</div>
+        </div>
+        <div class="white-bg pt-4 pl-4 pb-4 mt-4 box-shadow">
+          <div class="title pb-2">填寫付款資料</div>
+          <form>
+            <div class="form-group mr-3 ml-3">
+              <label for="FollowerName">姓名</label>
+              <input type="text" class="form-control" id="InitiatorName">
+            </div>
+            <div class="form-group mr-3 ml-3">
+              <label for="FollowerEmail">Email</label>
+              <input type="text" class="form-control" id="InitiatorEmail1">
+              <span class="bmd-help">用於寄送相關通知，請認真填寫並核對</span>
+            </div>
+            <div class="form-group mr-3 ml-3">
+              <label for="FollowerSelect">組合選擇</label>
+              <select class="custom-select custom-select-sm mt-2">
+                <option value="1">【來人呀！各給我一罐吧】蔓越梅*1＋藍莓*1+橘子*1+芒果*1</option>
+                <option value="2">【我愛莓莓】蔓越梅*2＋藍莓*2</option>
+                <option value="3">【橘芒最配】橘子*2+芒果*2</option>
+              </select>
+            </div>
+            <div class="form-group mr-3 ml-3">
+              <label for="InitiatorTextarea">備註</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+              <span class="bmd-help"></span>
+            </div>
+            <button type="button" class="btn btn-raised btn-primary mt-3 mr-3 ml-3" onclick="location.href='/jioukou/establish-complete.html'">立即付款加入</button>
+          </form>
         </div>
       </div>
       <div class="col-md-4 col-sm-12 order-sm-1 mt-3">
@@ -80,6 +129,15 @@
               2018/06/12 22:30 – 2018/06/29 02:00<p class="small font des pl-1">還剩 3 天</p>
             </div>
           </div>
+          <div class="card-category d-md-block mb-3 mr-3 ml-3">
+            <div class="card-name pr-3 align-top">
+              說明
+            </div>
+            <div class="card-description">
+              一組共有 4 罐唷！有 3 種組合可自行選擇你喜歡的果醬口味！會統一寄到主揪那邊，如果成團後，會在結團後進行發貨準備，預計 7~14 個工作天內會寄送。另外一團揪滿 20 組會有神秘小禮送給每張訂單唷！
+            </div>
+          </div>
+          <div class="card-category d-md-block mb-3 mr-3 ml-3 description"><a href="http://">查看更多商品介紹</a> </div>
         </div>
       </div>
     </div>

@@ -231,6 +231,26 @@ p.unit-col {
   color: #999999;
 }
 
+.custom-select:focus {
+  border-color: #00b5ad;
+  outline: 0;
+  box-shadow: none;
+}
+
+.modal-body p{
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.btn-primary.custom-file-control:before, .btn.btn-primary{
+  color: #00b5ad;
+  font-weight: 300;
+}
+
+.btn-primary.active.custom-file-control:before, .btn-primary.custom-file-control:active:before, .btn-primary.custom-file-control:focus:before, .btn-primary.custom-file-control:hover:before, .btn-primary.focus.custom-file-control:before, .btn.btn-primary.active, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary:focus, .btn.btn-primary:hover, .open>.btn-primary.dropdown-toggle.custom-file-control:before, .open>.btn.btn-primary.dropdown-toggle  :hover{
+  background-color: #ffffff;
+}
+
 @media screen and (max-width: 450px){
   .white-bg{
     padding-left: 16px;
@@ -277,12 +297,3 @@ p.unit-col {
 
 }
 
-@media (min-width: 576px){
-  .order-sm-1{
-    order: 2;
-  }
-
-  .order-sm-2{
-    order: 1;
-  }
-}
