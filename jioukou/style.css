@@ -88,6 +88,22 @@ a:hover{
   opacity: 0.8;
 }
 
+.modal-body p{
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.btn-primary.custom-file-control:before, .btn.btn-primary{
+  color: #00b5ad;
+  font-weight: 300;
+  height: 48px;
+}
+
+.btn-primary.active.custom-file-control:before, .btn-primary.custom-file-control:active:before, .btn-primary.custom-file-control:focus:before, .btn-primary.custom-file-control:hover:before, .btn-primary.focus.custom-file-control:before, .btn.btn-primary.active, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary:focus, .btn.btn-primary:hover, .open>.btn-primary.dropdown-toggle.custom-file-control:before, .open>.btn.btn-primary.dropdown-toggle  :hover{
+  background-color: #ffffff;
+}
+
+
 @media screen and (max-width: 540px) {
   .main-sec {
     padding-left: 0px;
