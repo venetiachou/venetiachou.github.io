@@ -237,6 +237,19 @@ p.unit-col {
   box-shadow: none;
 }
 
+.accordion{
+  padding-top: 32px;
+}
+
+.faq{
+  background-color: #fafafa;
+}
+
+.card-body{
+  font-size: 14px;
+  padding: 8px 0px;
+}
+
 @media screen and (max-width: 450px){
   .white-bg{
     padding-left: 16px;
