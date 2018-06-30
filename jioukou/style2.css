@@ -238,7 +238,7 @@ p.unit-col {
 }
 
 .accordion{
-  padding-top: 32px;
+  padding-bottom: 160px;
 }
 
 .faq{
@@ -318,6 +318,10 @@ button.btn.btn-raised.btn-primary.fixed-btn{
 
   .order-sm-2{
     order: 2;
+  }
+
+  .accordion{
+    padding-bottom: 16px;
   }
 
   .fixed-container{
