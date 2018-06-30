@@ -250,6 +250,27 @@ p.unit-col {
   padding: 8px 0px;
 }
 
+.fixed-bottom{
+  position: fixed;  
+  max-height: 72px;
+}
+
+.total-amount{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'karla';
+}
+
+button.btn.btn-raised.btn-primary.fixed-btn{
+  width: 200px;
+  margin: 0;
+}
+
+.total-style{
+  font-size: 12px;
+  color: #999999 
+}
+
 @media screen and (max-width: 450px){
   .white-bg{
     padding-left: 16px;

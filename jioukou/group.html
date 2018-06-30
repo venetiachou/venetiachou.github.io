@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Karla"rel="stylesheet">
   <link rel="stylesheet" href="/jioukou/style.css">
   <link rel="stylesheet" href="/jioukou/style2.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -29,7 +30,7 @@
         </div>
     </div>
   </nav>
-  <main class="main">
+  <main class="main pb-5 mb-5">
     <div class="white-bg pt-4 pb-4">
       <p class="title text-center">
         Chialin Chou 邀請你加入揪團，一起享團購優惠！
@@ -95,7 +96,6 @@
               <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
               <span class="bmd-help"></span>
             </div>
-            <button type="button" class="btn btn-raised btn-primary mt-3 mr-3 ml-3" onclick="location.href='/jioukou/establish-complete.html'">立即付款加入</button>
           </form>
         </div>
       </div>
@@ -168,12 +168,18 @@
               </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body">
+              <div class="card-body inactive">
                 目前僅接受刷卡付款噢！
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="fixed-bottom box-shadow white-bg">
+      <div class="d-flex flex-row justify-content-between pr-5 pl-5 pt-1 pb-1">
+        <div class="align-self-center"><span class="total-style">共 </span><span class="total-amount">$900</span></div>
+        <div class="btn"><button type="button" class="btn btn-raised btn-primary fixed-btn" onclick="location.href='/jioukou/establish-complete.html'">立即付款加入</button></div>
       </div>
     </div>
   </main>
