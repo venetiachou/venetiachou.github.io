@@ -252,7 +252,12 @@ p.unit-col {
 
 .fixed-bottom{
   position: fixed;  
-  max-height: 72px;
+  max-height: 80px;
+  border-radius: 0;
+}
+
+.fixed-container{
+  padding: 16px 32px;
 }
 
 .total-amount{
@@ -313,6 +318,14 @@ button.btn.btn-raised.btn-primary.fixed-btn{
 
   .order-sm-2{
     order: 2;
+  }
+
+  .fixed-container{
+    padding: 16px 8px;
+  }
+
+  button.btn.btn-raised.btn-primary.fixed-btn{
+    width: 144px
   }
 
 }
