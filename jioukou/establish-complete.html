@@ -15,6 +15,8 @@
   <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
   <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  <script src="https://cdn.rawgit.com/FezVrasta/snackbarjs/1.1.0/dist/snackbar.min.js"></script>
+
   <meta property="og:title" content="建立完成 ｜ 揪團購買 YOSGO 手工果醬" />
   <meta property="og:description" content="和朋友一起揪團享優惠，湊到 20 組，一共取得 2000 元優惠，還不需要一一收款對帳，揪團變得更簡單！">
   <meta property="og:type" content="website" />
@@ -57,10 +59,10 @@
         </div>
       </div>
       <div class="clipboard mb-3">
-        <input id="foo" value="https://venetiachou.github.io/g0303">
-        <button class="btn btn-outline-primary" data-clipboard-target="#foo">
+        <input id="foo" value="https://venetiachou.github.io/">
+        <button class="btn btn-outline-primary" data-toggle="snackbar" data-clipboard-target="#foo" data-content="已複製完畢，立即分享給朋友！" >
           複製
-      </button>
+        </button>
       </div>
       <div class="special-description text-center mb-3 inactive">
         或是
