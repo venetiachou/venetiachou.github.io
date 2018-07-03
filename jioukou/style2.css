@@ -144,8 +144,11 @@ form{
 }
 
 .form-control{
-  padding-left: 16px;
   font-size: 14px
+}
+
+.custom-file-control:disabled, .disabled.custom-file-control, .form-control.disabled, .form-control:disabled, .form-control[disabled], [disabled].custom-file-control, fieldset[disabled][disabled] .custom-file-control, fieldset[disabled][disabled] .form-control{
+  padding-left: 16px;
 }
 
 .main-icon{
