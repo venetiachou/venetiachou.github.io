@@ -127,6 +127,27 @@ form{
   text-align: center
 }
 
+.switch label{
+  font-size: 0.875rem;
+}
+
+.border-top{
+  border-top: 0.5px solid #f4f4f4;
+}
+
+.spec-form{
+  padding-top: 16px;
+}
+
+.form-title{
+  font-size: 14px;
+}
+
+.form-control{
+  padding-left: 16px;
+  font-size: 14px
+}
+
 .main-icon{
   margin: auto;
 }
@@ -165,6 +186,10 @@ form{
   font-weight: 300;
   min-height: 40px;
   width: 25%;
+}
+
+button.ml-3.mb-3.btn.btn-outline-primary.spec-btn{
+  width: 30%;
 }
 
 .btn-outline-primary.active.custom-file-control:before, .btn-outline-primary.custom-file-control:active:before, .btn-outline-primary.custom-file-control:focus:before, .btn-outline-primary.custom-file-control:hover:before, .btn-outline-primary.focus.custom-file-control:before, .btn.btn-outline-primary.active, .btn.btn-outline-primary.focus, .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:hover, .open>.btn-outline-primary.dropdown-toggle.custom-file-control:before, .open>.btn.btn-outline-primary.dropdown-toggle{
