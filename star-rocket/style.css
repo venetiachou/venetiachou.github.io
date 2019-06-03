@@ -34,6 +34,10 @@ a{
   text-decoration: none;
 }
 
+.yellow{
+  color: #fab855;
+}
+
 a:hover{
   text-decoration: underline;
 }
@@ -70,6 +74,21 @@ a:hover{
   color: #fff;
 }
 
+.primary-btn-y{
+  background-color: #fab855;
+  color: #fff;
+}
+
+.secondary-btn-y{
+  background-color: #fff;
+  color: #fab855;
+  border: 1px solid #fab855;
+}
+
+.secondary-btn-y:hover{
+  background-color: #fab855;
+  color: #fff; 
+}
 
 section{
   padding: 24px 0px;
