@@ -1,0 +1,122 @@
+html{
+  font-family: -apple-system, 'Segoe UI', 'Pingfang-TC', 'Microsoft JhengHei', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 62.5%;
+  color: #2e2626;
+  background-color: #fff;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 1.6rem;
+  color: #3c484e;
+}
+
+strong{
+  font-size: 1.6rem;
+}
+
+a{
+  font-size: 1.6rem;
+  color: #5572ff;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  padding: 12px 24px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+
+.primary-btn{
+  background-color: #5572FF;
+  color: #fff;
+}
+
+.primary-btn:hover:hover{
+  background-image: linear-gradient(to right, #5572FF, #8245ff);
+  transition: all 0.04s;
+}
+
+.secondary-btn{
+  background-color: #fff;
+  color: #5572FF;
+  border: 1px solid #5572FF;
+}
+
+.secondary-btn:hover:hover{
+  background-color: #5572ff;
+  color: #fff;
+}
+
+
+section{
+  padding: 24px 0px;
+}
+
+.container{
+  padding: 15px 45px 80px 45px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: #2e2626;
+  height: 48px;
+  padding: 8px 45px;
+  display:  flex;
+  align-items: center;
+}
+
+nav img{
+  height: 24px;
+}
+
+.sec-title{
+  padding: 8px 0px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #ddd;
+  margin: 16px 0px;
+}
+
+.color-palette{
+  padding-right: 32px;
+  display: inline-block;
+}
+
+.color-demo {
+  position: relative;
+  margin: 8px 0px 24px 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.color-demo p{
+  position: absolute;
+  padding: 8px;
+  margin: 64px 0px 0px 0px;
+}
+
